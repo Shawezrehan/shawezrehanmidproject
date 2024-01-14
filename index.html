@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hello.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <marquee behavior="" direction="">
+        <p><div class="cow">TO RESOLVE YOUR <strong>QUERIES</strong> DIAL OUR HELPLINE NUMBER <strong> 021 38282263</strong>| <i class="fa fa-whatsapp" style="font-size:24px"></i>  WHATSAPP US AT <strong> 0317-8226242</strong></header> </marquee>
+        <div class="tiger">
+        <img src="https://banoqabil.pk/media/logo.png" alt="" >
+        <nav>
+            <a href="Home.html" class="lion" style="padding-top: 30px; padding-left: 300px;font-size: 30px;">Home</a>
+            <a href="About.html" class="lion" style="padding-top: 30px; padding-left: 40px;font-size: 30px;"> About us</a>
+            <a href="Campuses.html" class="lion" style="padding-top: 30px; padding-left: 40px;font-size: 30px;"> Campuses</a>
+           <a href="Contact.html" class="lion" style="padding-top: 30px; padding-left: 40px;font-size: 30px;"> Contact us</a>
+           
+        </nav>
+      </div>
+           
+    <div class="carousel">
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpg" alt="Image 2">
+      <img src="image3.jpg" alt="Image 3">
+      <div class="carousel-button prev">&larr;</div>
+      <div class="carousel-button next">&rarr;</div>
+  </div>
+  <script>
+      let currentIndex = 0;
+      const images = document.querySelectorAll('.carousel img');
+      const prevButton = document.querySelector('.carousel .carousel-button.prev');
+      const nextButton = document.querySelector('.carousel .carousel-button.next');
+
+      function hideAllImages() {
+          images.forEach(img => img.style.display = 'none');
+      }
+
+      function showImage() {
+          hideAllImages();
+          images[currentIndex].style.display = 'block';
+      }
+
+      function nextImage() {
+          currentIndex++;
+          if (currentIndex >= images.length) {
+              currentIndex = 0;
+          }
+          showImage();
+      }
+
+      function prevImage() {
+          currentIndex--;
+          if (currentIndex < 0) {
+              currentIndex = images.length - 1;
+          }
+          showImage();
+      }
+
+      prevButton.addEventListener('click', prevImage);
+      nextButton.addEventListener('click', nextImage);
+  </script>
+  <h1 class="cat"><span style="color: black;">OUR </span><span style="color: #2d8e84;">SERVICES</span></h1>
+  <div class="bird">
+    <iframe class="salam1" src="https://www.youtube.com/embed/vfd7mrHi26U" title="Our desire is to provide 50,000 youths from Karachi (Hafiz Naeem ur Rehman)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="salam2" src="https://www.youtube.com/embed/LvdbtdO7GBs" title="CEO Alkhidmat Karachi visited the interview session of Bano Qabil 2.0 #Alkhidmat #banoqabil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div class="flyer">
+    <iframe class="salam1" src="https://www.youtube.com/embed/mAOk1rTKomg" title="Alkhidmat Banoqabil 2.0 Program Campus Selection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  class="salam2" src="https://www.youtube.com/embed/9fEN3f822Ss" title="Online Guidance Session" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+</div> 
+<div class="shawez18">
+    <span class="rehan">
+        <div class="rehan13">
+<img src="white-logo.png" alt="" class="shazen">
+<p  class="shazen1"> Bano Qabil is the Largest IT scholarship Program for <br> the Youth of Karachi offering advanced IT courses packed <br> with the latest technologies.</p>            
+<span class="rehan2">
+<i  class="fa fa-facebook-f" style="font-size:20px; color: aliceblue; padding-left: 100px;padding-top: 20px;"></i>
+<i class="fa fa-twitter" style="font-size:20px; color: aliceblue;padding-left: 5px"></i>
+<i class="fa fa-linkedin" style="font-size:20px;color: aliceblue;padding-left: 5px"></i>
+</div>
+<div class="rehan2">
+<h2 class="alif">OUR PROGRAMS</h2>
+<p style="color: #fff;padding-top: 20px; padding-left: 50px;;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 20px;">BANO QABIL 2.0</p><br><br>
+<span class="hello"><img src="https://banoqabil.pk/media/learning.jpeg" alt="" style="width: 295.98px; height: 150.23px;"> </span>  
+</div>
+<div class="rehan2">
+<h2 class="alif">CONTACT US</h2> <br><br>
+<span class="sam2">
+<i class="fa fa-map-marker" style="font-size:36px;color:#fff;padding-left: 50px;padding-top: 10px;"></i>
+<strong class="rehan3">ADDRESS <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 501,Quaideen Colony, Karachi </strong>
+</span>
+<br>
+<span class="sam2">
+<i class="fa fa-phone" style="font-size:36px;color:#fff;padding-left: 50px;padding-top: 30px;"></i>
+<strong class="rehan3">PHONE <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 021 38282263 </strong>
+</span>
+<br>
+<span class="sam2">
+<i class="fa fa-whatsapp" style="font-size:36px;color:#fff;padding-left: 50px;padding-top: 30px;"></i>
+<strong class="rehan3">WHATSAPP<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0317-8226242 </strong>
+</span>
+</div>
+</div>
+   </body>
+</html>
+
+
+
+
